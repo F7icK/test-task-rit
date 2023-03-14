@@ -1,0 +1,41 @@
+{
+  "actions":
+  [
+    {
+      "type": "action",
+      "name": "create file",
+      "result": "",
+      "parameters": ["name_file.txt"]
+    },
+    {
+      "type": "action",
+      "name": "get file creation time",
+      "result": "",
+      "parameters": []
+    },
+    {
+      "type": "condition",
+      "name": "created at time condition",
+      "result": "",
+      "parameters":["2023-03-12 15:04:05"]
+    },
+    {
+      "type": "condition-action",
+      "name": "writing line to file",
+      "result": "",
+      "parameters": ["newline for file"]
+    },
+    {
+      "type": "condition-action",
+      "name": "change file name",
+      "result": "",
+      "parameters": ["file_name_changed.txt"]
+    },
+    {
+      "type": "action",
+      "name": "remove file",
+      "result": "",
+      "parameters": []
+    }
+  ]
+}
